@@ -19,7 +19,7 @@ public class EnergyDrinkDto implements Serializable {
     @NotBlank(message = "Energydrink must have a fancy name")
     private String name;
 
-    @NotBlank(message = "A energy drink needs a descriptions in order to sell")
+    @NotBlank(message = "Energydrink needs a stunning description")
     private String description;
 
     @Min(value = 1, message = "Energydrink without caffeine is not supported")
