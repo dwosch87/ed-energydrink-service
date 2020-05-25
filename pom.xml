@@ -9,10 +9,17 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>de.dwosch</groupId>
-    <artifactId>drw-energydrink-service</artifactId>
+    <artifactId>energydrink.service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>drw-energydrink-service</name>
+    <name>energydrink-service</name>
     <description>Energydrink microservice</description>
+
+    <developers>
+        <developer>
+            <name>Daniel Rafael Wosch</name>
+            <email>daniel.wosch@outlook.de</email>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
