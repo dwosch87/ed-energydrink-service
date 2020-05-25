@@ -14,7 +14,7 @@ public class EnergyDrinkValidationService implements IEnergyDrinkValidationServi
     private final IEnergyDrinkRepository repository;
 
     public boolean isValid(final EnergyDrinkDto energyDrinkDto) {
-        return !repository.existsByEanAndName(energyDrinkDto.getEan(), energyDrinkDto.getName());
+        return !repository.existsByEanOrName(energyDrinkDto.getEan(), energyDrinkDto.getName());
     }
 
 }

@@ -11,5 +11,5 @@ import java.util.UUID;
  */
 @Repository
 public interface IEnergyDrinkRepository extends PagingAndSortingRepository<EnergyDrink, UUID> {
-    boolean existsByEanAndName(final String ean, final String name);
+    boolean existsByEanOrName(final String ean, final String name);
 }
